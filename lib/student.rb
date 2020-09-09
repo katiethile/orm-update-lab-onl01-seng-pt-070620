@@ -61,7 +61,7 @@ def self.find_by_name
   SQL
   
   DB[:conn].execute(sql, name).map do |row|
-    
+    self.new
   
 end 
 end
