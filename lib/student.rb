@@ -17,5 +17,7 @@ def self.create_table
     name TEXT,
     grade INTEGER)
     SQL
+    
+    DB[:conn].execute(sql)
 end 
 end
