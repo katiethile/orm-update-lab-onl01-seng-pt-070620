@@ -52,4 +52,9 @@ def self.new_from_db(row)
   new_student.grade[2]
   new_student
 end 
+
+def self.find_by_name
+  
+  
+end 
 end
